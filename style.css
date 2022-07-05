@@ -1,0 +1,259 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+nav li{
+    list-style: none;
+    color: hsl(243, 87%, 12%);
+    cursor: pointer;
+
+}
+nav li:hover{
+    border-bottom: 0.9px solid white;
+    color: hsl(0, 0%, 100%);
+    transition: 300ms;
+
+}
+
+.top,.second-part{
+    background-image: url('/fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg') no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.top{
+    margin-bottom: 100px;
+
+}
+.quote{
+    width: 20px;
+    height: 20px;
+}
+.top-img, .second-img{
+    height: auto;
+    width: 50%;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.description{
+    width: 40%;
+}
+
+.title{
+    font-size: 2.3rem;
+}
+
+p{
+    font-size: 1.12rem;
+}
+
+.get-started-btn{
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(224, 93%, 58%);
+    border-radius: 3px;
+    border: 1px solid hsl(224, 93%, 58%);
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+    width: 40%;
+}
+
+.get-started-btn:hover{
+    background-color:  hsla(224, 93%, 58%, 0.8);
+    border: 1px solid  hsla(224, 93%, 58%, 0.8);
+    transition: 200ms;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: hsl(243, 87%, 12%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.link{
+    color: hsl(224, 93%, 58%);
+}
+
+.link:hover{
+    color:  hsl(170, 45%, 43%);
+}
+.comment{
+    text-align: start;
+    margin-bottom: 5%;
+    font-size: 1.1rem;
+
+}
+.person-data{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.data{
+    padding-left: 6px;
+}
+.name{
+    font-size: 1.25rem;
+}
+.work{
+    font-size: 0.9rem;
+}
+.email-input{
+    font-size: 1.2rem;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 30px;
+    border-radius: 3px;
+    width: 70%;
+    border: 1px solid hsl(243, 87%, 12%);
+}
+
+.bottom-email-div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+
+/*add*/
+
+#email-input{
+    font-size: 1.4rem;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 3px;
+    width: 80%;
+    border: 1px solid hsla(0, 0%, 100%, 0.6);
+}
+
+.email-sign-up{
+    background-color: hsl(238, 22%, 44%);
+    border: 1px solid hsl(238, 22%, 44%);
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+
+}
+
+.first-part{
+    text-align: start;
+    padding: 20px;
+}
+
+.submit-btn{
+    width: 60%;
+}
+
+.input-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    width: 50%;
+}
+
+
+
+
+span{
+    color: hsl(0, 100%, 63%);
+    padding-left: 30px;
+    opacity: 0;
+    text-align: start;
+}
+span.active{
+    opacity: 1;
+}
+
+.bottom-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.location , .email, .phone{
+    display: flex;
+    flex-direction: row;
+    color: hsl(0, 0%, 100%);
+}
+.phone, .email{
+    padding: 5px;
+}
+.links1, .links2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links1 a, .links2 a{
+    padding: 5px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    padding: 50px;
+    padding-top: 200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: hsl(216, 53%, 9%);
+}
